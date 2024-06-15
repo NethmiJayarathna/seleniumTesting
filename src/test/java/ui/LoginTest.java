@@ -17,7 +17,7 @@ public class LoginTest {
 		if(browser.equals("Edge"))
 		{
 			//System.setProperty("webdriver.edge.driver", "C:\\browserdrivers\\msedgedriver.exe");
-			//WebDriverManager.edgedriver().setup();
+			WebDriverManager.edgedriver().setup();
 			EdgeDriver driver = new EdgeDriver();
 		}
 
